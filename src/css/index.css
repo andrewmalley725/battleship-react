@@ -1,0 +1,16 @@
+.board {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.board a {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-decoration: none;
+}
+
+.board a:hover {
+    color: blue;
+}
