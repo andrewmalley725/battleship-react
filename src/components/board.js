@@ -7,6 +7,8 @@ let ships = {
     "B": 5,
 };
 
+// TODO Current algorithm only places one ship on the board, adjust placementAlg()
+
 function Board(props) {
     const height = props.dimensions.height;
     const width = props.dimensions.width;
