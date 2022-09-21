@@ -85,47 +85,4 @@ export function placementAlg(board, ships) {
 export function CPUBoard(height, width, ships) {
     let board = makeBoard(height, width);
     placementAlg(board, ships);
-    // let CPboard = makeBoard(height, width);
-    // let row = Math.floor(Math.random() * width);
-    // let col = Math.floor(Math.random() * width);
-    // let len = width - 1;
-    // let rowInc;
-    // let colInc;
-
-    // while (CPboard[row][col] !== '*') {
-    //     row = Math.floor(Math.random() * width);
-    //     col = Math.floor(Math.random() * width);
-    // }
-
-    // if (row < (height - 1) - row)
-    //     rowInc = 'I';
-    // else if (row => (height - 1) - row)
-    //     rowInc = 'S';
-
-    // if (col < (width - 1) - col)
-    //     colInc = 'I';
-    // else if (col => (width - 1) - col)
-    //     colInc = 'D';
-
-    // while (len > 0) 
-    // {
-    //     CPboard[row][col] = 'B';
-        
-    //     if (rowInc == 'I')
-    //         row += 1;
-    //     else if (rowInc == 'D')
-    //         row -= 1;
-    //     else
-    //         row = row;
-        
-    //     if (colInc == 'I')
-    //         col += 1;
-    //     else if (colInc == 'D')
-    //         col -= 1;
-    //     else
-    //         col = col;
-
-    //     len -= 1;
-    // }
-    // return CPboard;
 }
